@@ -117,12 +117,13 @@
   <div class="wrapper">
     <div class="judul-besar">Pilih Menu Yang Diinginkan</div>
     <div class="container">
-      <div class="box">1</div>
-      <div class="box">2</div>
-      <div class="box">3</div>
-      <div class="box">4</div>
-      <div class="box">5</div>
-      <div class="box">6</div>
+      <a href="C:\Users\dzaki\Documents\Institut Teknologi Sepuluh Nopember\Semester 4\Pemograman Web\FEC5026231150\pertama.html" class="box" target="_blank">Web ITS</a>
+      <a href="C:\Users\dzaki\Documents\Institut Teknologi Sepuluh Nopember\Semester 4\Pemograman Web\FEC5026231150\bootstrap2.html" class="box" target="_blank">Bootstrap</a>
+      <a href="C:\Users\dzaki\Documents\Institut Teknologi Sepuluh Nopember\Semester 4\Pemograman Web\FEC5026231150\js1.html" class="box" target="_blank">JS1</a>
+      <a href="C:\Users\dzaki\Documents\Institut Teknologi Sepuluh Nopember\Semester 4\Pemograman Web\FEC5026231150\Pertemuan4.html" class="box" target="_blank">Pertemuan 4</a>
+      <a href="C:\Users\dzaki\Documents\Institut Teknologi Sepuluh Nopember\Semester 4\Pemograman Web\FEC5026231150\linktree.html" class="box" target="_blank">Linktree</a>
+      <a href="C:\Users\dzaki\Documents\Institut Teknologi Sepuluh Nopember\Semester 4\Pemograman Web\FEC5026231150\Pertemuan7.html" class="box" target="_blank">Pertemuan 7</a>
+
     </div>
   </div>
 
