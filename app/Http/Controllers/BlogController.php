@@ -12,7 +12,7 @@ class BlogController extends Controller
 	}
 
 	public function tentang(){
-		return view('tentang');
+		return view('tpentang');
 	}
 
 	public function kontak(){
