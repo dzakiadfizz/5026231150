@@ -9,7 +9,7 @@ class PegawaiController extends Controller
 {
     public function index()
     {
-        $pegawai = DB::table('pegawai')->get();
+        $pegawai = DB::table('pegawai')->paginate(10);
         return view('index', ['pegawai' => $pegawai]);
     }
 
@@ -59,6 +59,22 @@ class PegawaiController extends Controller
 
         return redirect('/pegawai')->with('success', 'Data pegawai berhasil ditambahkan.');
     }
+
+    public function cari(Request $request)
+    {
+    $keyword = $request->input('cari');
+
+    $pegawai = DB::table('pegawai')
+        ->where('pegawai_nama', 'like', "%{$keyword}%")
+        ->orWhere('pegawai_jabatan', 'like', "%{$keyword}%")
+        ->paginate(10);
+
+    // Supaya parameter 'cari' tetap ada di URL pagination
+    $pegawai->appends(['cari' => $keyword]);
+
+    return view('index', ['pegawai' => $pegawai]);
+    }
+
 
     public function hapus($id)
     {
