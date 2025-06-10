@@ -25,31 +25,34 @@
         <h1>5026231150 : Muhammad Dzaki Adfiz</h1>
     </div>
     <nav class="navbar navbar-expand-sm bg-light">
-    <div class="container">
-        <ul class="navbar-nav w-100 d-flex justify-content-between">
-            <li class="nav-item">
-                <a class="nav-link" href="#">All Front End</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/pegawai">Pegawai</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Tugas CRUD</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">EAS</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Latihan 1</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Latihan 2</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Latihan 3</a>
-            </li>
-        </ul>
-    </div>
+        <div class="container">
+            <ul class="navbar-nav w-100 d-flex justify-content-between">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">All Front End</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pegawai">Pegawai</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tugas CRUD</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">EAS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Latihan 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Latihan 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Latihan 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/harddisk">Harddisk</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     <br>
@@ -60,4 +63,3 @@
 </body>
 
 </html>
-
