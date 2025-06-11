@@ -34,9 +34,6 @@
                     <a class="nav-link" href="/pegawai">Pegawai</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Tugas CRUD</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="#">EAS</a>
                 </li>
                 <li class="nav-item">
@@ -49,7 +46,10 @@
                     <a class="nav-link" href="#">Latihan 3</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/harddisk">Harddisk</a>
+                    <a class="nav-link" href="/harddisk">Tugas CRUD</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/karyawan">Latihan 11 Juni (Genap)</a>
                 </li>
             </ul>
         </div>
