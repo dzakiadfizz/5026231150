@@ -8,6 +8,7 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\MalasngodingController;
 use App\Http\Controllers\HarddiskController;
 use App\Http\Controllers\KaryawanController;
+use App\Http\Controllers\LatihanA1Controller;
 
 Route::get('/', function () {
     return view('welcome');
@@ -54,3 +55,6 @@ Route::post('/karyawan/store', [KaryawanController::class, 'store'])->name('kary
 Route::get('/karyawan/edit/{kodepegawai}', [KaryawanController::class, 'edit'])->name('karyawan.edit');
 Route::put('/karyawan/update/{kodepegawai}', [KaryawanController::class, 'update'])->name('karyawan.update');
 Route::delete('/karyawan/hapus/{kodepegawai}', [KaryawanController::class, 'hapus'])->name('karyawan.hapus');
+
+
+Route::get('/latihanA1', [LatihanA1Controller::class, 'index5']);
