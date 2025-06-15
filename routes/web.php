@@ -9,6 +9,7 @@ use App\Http\Controllers\MalasngodingController;
 use App\Http\Controllers\HarddiskController;
 use App\Http\Controllers\KaryawanController;
 use App\Http\Controllers\LatihanA1Controller;
+use App\Http\Controllers\KeranjangBelanjaController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -58,3 +59,10 @@ Route::delete('/karyawan/hapus/{kodepegawai}', [KaryawanController::class, 'hapu
 
 
 Route::get('/latihanA1', [LatihanA1Controller::class, 'index5']);
+
+Route::get('/keranjangbelanja', [KeranjangBelanjaController::class,'index3']);
+Route::get('/keranjangbelanja/tambah', [KeranjangBelanjaController::class,'tambah3']);
+Route::post('/keranjangbelanja/store', [KeranjangBelanjaController::class,'store']);
+Route::post('/keranjangbelanja/update', [KeranjangBelanjaController::class,'update']);
+Route::get('/keranjangbelanja/hapus/{id}',[KeranjangBelanjaController::class,'hapus']);
+
