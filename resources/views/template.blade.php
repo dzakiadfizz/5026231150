@@ -34,7 +34,7 @@
                     <a class="nav-link" href="/pegawai">Pegawai</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">EAS</a>
+                    <a class="nav-link" href="/nilai">EAS</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Latihan 1</a>

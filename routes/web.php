@@ -10,6 +10,7 @@ use App\Http\Controllers\HarddiskController;
 use App\Http\Controllers\KaryawanController;
 use App\Http\Controllers\LatihanA1Controller;
 use App\Http\Controllers\KeranjangBelanjaController;
+use App\Http\Controllers\NilaiController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -65,4 +66,8 @@ Route::get('/keranjangbelanja/tambah', [KeranjangBelanjaController::class,'tamba
 Route::post('/keranjangbelanja/store', [KeranjangBelanjaController::class,'store']);
 Route::post('/keranjangbelanja/update', [KeranjangBelanjaController::class,'update']);
 Route::get('/keranjangbelanja/hapus/{id}',[KeranjangBelanjaController::class,'hapus']);
+
+Route::get('/eas', [NilaiController::class, 'index']);
+Route::get('/eas/tambah', [NilaiController::class, 'create']);
+Route::post('/eas/store', [NilaiController::class, 'store']);
 
