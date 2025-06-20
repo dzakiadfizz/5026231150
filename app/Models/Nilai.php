@@ -6,9 +6,15 @@ use Illuminate\Database\Eloquent\Model;
 
 class Nilai extends Model
 {
+
     protected $table = 'nilai';
 
-    protected $fillable = ['nomorinduksiswa', 'nilaiangka', 'sks'];
+
+    protected $fillable = [
+        'nomorinduksiswa',
+        'nilaiangka',
+        'sks'
+    ];
 
     public $timestamps = false;
 }

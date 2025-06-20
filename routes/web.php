@@ -68,6 +68,6 @@ Route::post('/keranjangbelanja/update', [KeranjangBelanjaController::class,'upda
 Route::get('/keranjangbelanja/hapus/{id}',[KeranjangBelanjaController::class,'hapus']);
 
 Route::get('/eas', [NilaiController::class, 'index']);
-Route::get('/eas/tambah', [NilaiController::class, 'create']);
+Route::get('/eas/create', [NilaiController::class, 'create']);
 Route::post('/eas/store', [NilaiController::class, 'store']);
 

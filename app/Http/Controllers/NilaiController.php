@@ -17,15 +17,13 @@ class NilaiController extends Controller
     }
 
     public function store(Request $request)
-{
-    Nilai::create([
-        'nomorinduksiswa' => $request->nrp,
-        'nilaiangka' => $request->nilaiangka,
-        'sks' => $request->sks,
+    {
+        Nilai::create([
+            'nomorinduksiswa' => $request->nrp,
+            'nilaiangka' => $request->nilaiangka,
+            'sks' => $request->sks,
+        ]);
 
-    ]);
-
-    return redirect('/eas');
-}
-
+        return redirect('/eas');
+    }
 }
